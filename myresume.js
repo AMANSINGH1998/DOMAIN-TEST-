@@ -483,7 +483,7 @@ function create(){
 	// ambu.scale.setTo(0.8,0.8);
 	// var t = game.add.tween(ambu).to( { x:14400,}, 2000, Phaser.Easing.Back.InOut, true, 0, 2000, true);
 	// t.start();
-	game.add.text(14760,h-440,"Developed a restaurant mangement system \n enabling bill generating facity \n .",style_white);
+	game.add.text(14760,h-440,"Developed a restaurant mangement system \n enabling bill generating facility \n .",style_white);
 
 
 
@@ -563,12 +563,12 @@ function create(){
 	//game.add.text(base6+600,h-330,"Host:Chai Pe Charcha \n with NaMO & 'Mere \nSapno Ka Bharat'.",style_white);
 	shakti2 = game.add.sprite(base6+930,-500,'pshaktiman');
 	shakti2.scale.setTo(0.75,0.75);
-	game.add.text(base6+900,h-430,"Sports Lover",style_white);
+	game.add.text(base6+900,h-460,"Sports Lover",style_white);
 	football=game.add.sprite(base6+900,h-200,'football');
 	game.add.tween(football).to( {y:h-300 }, 400, Phaser.Easing.Back.InOut, true, 0, 400, true);
 
 	game.add.sprite(base6-700,h-450,'superhero');
-	game.add.text(base6-700,h-500,"Holds Yoga Session \nin DTU \n every Friday.",style_white);
+	game.add.text(base6-700,h-500,"Campus  Ambassador \nin Coding Blocks . ",style_white);
 
 
 
@@ -577,7 +577,7 @@ function create(){
 
 	
 	game.add.sprite(base6+450,h-450,'tannz');
-	game.add.text(base6-700,h-500,"Holds Yoga Session \nin DTU \n every Friday.",style_white);
+	//game.add.text(base6-700,h-500,"Holds Yoga Session \nin DTU \n every Friday.",style_white);
 
 
 
