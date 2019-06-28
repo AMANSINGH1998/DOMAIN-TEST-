@@ -451,8 +451,8 @@ function create(){
 	pd.angle = 0;
 
 	//Add projects
-	game.add.sprite(12200,h-370,'games');
-	game.add.text(12280,h-430,"Developed Web & Android Games\n 500-1000 Downloads \n Rated 4.8/5.0 on Google Play",style_white);
+	game.add.sprite(12200,h-340,'games');
+	game.add.text(12280,h-490,"Build Smart Chat Box \n enabled private messaging \n to a specific person in a group\n using Socket IO. ",style_white);
 
 	// game.add.sprite(12760,h-250,'gamershq');
 	// game.add.text(12750,h-380,"Developed a gaming portal \n with frontend & backend \n to host and play games",style_white);
@@ -460,19 +460,19 @@ function create(){
 
 	game.add.sprite(13250,h-240,'harddrive').scale.setTo(0.6,0.6);
 	// game.add.sprite(13400,h-310,'bits');
-	game.add.text(13300,h-430,"Developed meta-data tracking\nstructures for large storage devices \n using Boost C++ and \n Boost Python Libraries.",style_white);
+	game.add.text(13150,h-430,"Built flipkart web scraper \n using Scrapy Framework  \n for crawling web sites \nand extracting structured data",style_white);
 
-	var pd = game.add.sprite(13840-100,h-330,'book_ex');
+	var pd = game.add.sprite(13740-100,h-330,'book_ex');
 	pd.scale.setTo(1.0,1.0);
 	// pd.angle = 90;
-	game.add.text(13800-100,h-500,"Wrote Python Scripts to analyze \n fragmentation pattern \n on USB drives.",style_white);
+	game.add.text(13700-100,h-500,"Developed Book exchange portal   \n allowing  exchange of books and  \n goods among students.",style_white);
 
 	game.add.sprite(14100,h-370,'hospital');
 	var ambu = game.add.sprite(14200,h-260,'ambulance');
 	ambu.scale.setTo(0.8,0.8);
 	var t = game.add.tween(ambu).to( { x:14400,}, 2000, Phaser.Easing.Back.InOut, true, 0, 2000, true);
 	t.start();
-	game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management \n System for Kalpvriksh Hospital.",style_white);
+	game.add.text(14240,h-370,"Developed an Smart Institutional Website  \nconsisting of Notices ,Results \n and Registration.",style_white);
 
 	game.add.sprite(14800,h-370,'restaurant');
 	var ambu = game.add.sprite(14900,h-260,'waiter');
@@ -483,7 +483,7 @@ function create(){
 	// ambu.scale.setTo(0.8,0.8);
 	// var t = game.add.tween(ambu).to( { x:14400,}, 2000, Phaser.Easing.Back.InOut, true, 0, 2000, true);
 	// t.start();
-	game.add.text(14240,h-370,"Worked in a team \nto develop Smart Hospital Management \n System for Kalpvriksh Hospital.",style_white);
+	game.add.text(14760,h-440,"Developed a restaurant mangement system \n enabling bill generating facity \n .",style_white);
 
 
 
@@ -503,7 +503,7 @@ function create(){
 	shakti.scale.setTo(0.6,0.6);
 	shakti_cup = game.add.sprite(base5+500,-500,'cup');
 	shakti_cup.scale.setTo(0.5,0.5);
-	game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level\nCartooning,Painting \n & Quiz Competitions. ",style_white);
+	game.add.text(base5+505,h-300,"Best Cartoonist Award \n\n Won several Dist Level \n & Quiz Competitions. ",style_white);
 	
 	//game.add.tileSprite(15720,h-300,100,300'brick');
 
@@ -601,7 +601,7 @@ function create(){
 	game.add.sprite(base6+1200,h-450,'yoga');
 	game.add.sprite(base6+1600,h-400,'swach_bharat');
 	game.add.text(base6+1240,h-500,"Holds Yoga Session \nin DTU \n every Friday.",style_white);
-	game.add.text(base6+1400+20,h-360,"Took active part in \n Swacch Bharat,Tree Plantation\n Drives in Delhi,Punjab,Karnataka.",style_white);
+	game.add.text(base6+1400+20,h-360,"Took active part in \n Swacch Bharat,Tree Plantation\n Drives in Delhi",style_white);
 
 	
 	//Add Contact Buttons
@@ -671,8 +671,7 @@ function create(){
 	button_spoj = game.add.button(20200,h-600,'spoj',openSpoj, this);
 	button_hackerearth = game.add.button(20000,h-600,'hackerearthLogo',openHackerearth, this);
 	*/
-	//Add hometown
-	var hometown = game.add.sprite(1650,h-420,'hometown');
+	//Add hometownlswn = game.add.sprite(1650,h-420,'hometown');
 
 	//Add fullstack
 	game.add.sprite(5900,h-360,'developer');
